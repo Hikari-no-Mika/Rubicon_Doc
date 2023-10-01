@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Документация ПАК &laquo;Рубикон&raquo;</title>
+    <link rel="stylesheet" href="css-base.css" />
     <!--Включение Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -11,41 +12,6 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <style>
-      header {
-        padding-top: 10px;
-      }
-      p {
-        padding-top: 5px;
-        margin: 5px;
-        font-size: 100%;
-        font-family: sans-serif;
-        text-align: left;
-        vertical-align: middle;
-        padding: 5px;
-      }
-
-      .inner-nav {
-        display: inline-flex;
-        height: 540px;
-        width: 30%;
-        margin: 10px;
-        background-color: #98bfc9;
-      }
-      .inner-div {
-        height: 800px;
-        width: 100%;
-        margin: 10px;
-        background-color: #a47eb9;
-        align-items: stretch;
-      }
-      .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-      }
-    </style>
   </head>
   <body>
     <!--Скрипты для Bootstrap-->
@@ -71,12 +37,24 @@
     </header>
     <div class="container">
       <div class="inner-nav">
-        <p>1</p>
+        <ul>
+          <h3>Документация ПАК &laquo;Рубикон&raquo;</h3>
+          <li><a href="index.html">Главная</a></li>
+        </ul>
       </div>
 
-      <div class="inner-div">
+      <div class="inner-content">
         <p>2</p>
       </div>
     </div>
+    <footer>
+      <nav>
+        <a href="mailto:mail@npo-echelon.ru">mail@npo-echelon.ru</a
+        >&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:+74952232392">тел. +7 (495) 223-23-92</a
+        >&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://npo-echelon.ru/">АО &laquo;НПО &laquo;Эшелон&raquo;</a>
+      </nav>
+    </footer>
   </body>
 </html>
