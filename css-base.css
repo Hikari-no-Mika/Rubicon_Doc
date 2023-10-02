@@ -15,26 +15,29 @@ p {
 .inner-nav {
   display: inline-flex;
   height: 400px;
-  width: 30%;
+  width: 300px;
   margin: 10px;
   background-color: #98bfc952;
   text-align: left;
   padding: 0px;
+  word-wrap: break-all;
 }
 .inner-content {
   height: auto;
-  width: 70%;
+  width: 80%;
   margin: 10px;
   background-color: #a47eb95d;
   align-items: stretch;
   flex-grow: 1;
-  min-height: 88vh;
+  min-height: 85vh;
 }
-.container {
+.container_flex {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  margin: 10px;
+  margin-right: 10px;
 }
 footer {
   flex-shrink: 0;
@@ -44,6 +47,10 @@ footer {
   padding: 5px;
 }
 a:link {
+  text-decoration: none;
+  color: #b62a29;
+}
+#site {
    text-decoration: none;
-   color: #B62A29;
+   color: #b62a29;
 }
