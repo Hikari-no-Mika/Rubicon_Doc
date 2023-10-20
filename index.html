@@ -31,20 +31,39 @@
       crossorigin="anonymous"
     ></script>
     <!--Скрипты для Bootstrap-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <script>
+      function changeIframe(src) {
+        const iframe = document.getElementById("content");
+        iframe.src = src;
+      }
+    </script>
     <header>
       <center><img src="LogoCompany_2_1.png" height="50" /></center>
     </header>
+    <script>
+      function changeIframe(src) {
+        const iframe = document.getElementById("content");
+        iframe.src = src;
+      }
+    </script>
     <div class="container_flex">
       <div class="inner-nav">
         <ul>
-          <h3>Документация ПАК&nbsp;&laquo;Рубикон&raquo;</h3>
-          <li><a href="index.html">Главная</a></li>
+          <h1>Документация ПАК&nbsp;&laquo;Рубикон&raquo;</h1><br>
+          <li><a href="index.html">Главная</a></li><br>
+          <li><a
+            href="#"
+            onclick="changeIframe('/Руководство администратора.html')"
+            >Руководство администратора</a
+          ></li>
         </ul>
       </div>
 
       <div class="inner-content">
-        <p>2</p>
+         <iframe id="content"></iframe>
       </div>
     </div>
     <footer>

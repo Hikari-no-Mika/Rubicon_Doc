@@ -17,40 +17,62 @@ p {
   height: 400px;
   width: 300px;
   margin: 10px;
-  background-color: #98bfc952;
+  border-right: 1px solid #3e3e3e;
+  border-left: 1px solid #3e3e3e;
+  border-radius: 10px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 16pt;
   text-align: left;
-  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
   word-wrap: break-all;
-}
-.inner-content {
-  height: auto;
+  }
+.inner-content, .inner-content, iframe {
+  height: 100%;
   width: 80%;
   margin: 10px;
-  background-color: #a47eb95d;
   align-items: stretch;
   flex-grow: 1;
   min-height: 85vh;
+  font-family: 'Exo 2', sans-serif;
 }
-.container_flex {
+.container_flex,.inner-content {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   margin: 10px;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 footer {
   flex-shrink: 0;
-  font-family: sans-serif;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 12pt;
   text-align: center;
   vertical-align: middle;
   padding: 5px;
+  margin-top: 5px;
+}
+ul {
+   padding-left: 5px;
+   padding-right: 5px;
+   color: #3e3e3e;
+  }
+li {
+   font-family: 'Exo 2', sans-serif;
+   list-style-type: none; 
+}
+li>a {
+   color: #3e3e3e;
 }
 a:link {
-  text-decoration: none;
-  color: #b62a29;
+   font-family: 'Exo 2', sans-serif;
+   text-decoration: none;
+   color: #3e3e3e;
 }
 #site {
+   font-family: 'Exo 2', sans-serif;
    text-decoration: none;
-   color: #b62a29;
+   color: #3e3e3e;
 }
