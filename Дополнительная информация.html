@@ -1,0 +1,781 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Name of Presentation</title>
+    <meta name="author" content="ADMIN" />
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        text-indent: 0;
+        text-align: center;
+      }
+      .s1 {
+        color: black;
+        font-family: "Calibri Light", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 40pt;
+        text-align: center;
+      }
+      .p,
+      p {
+        color: #666;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 18pt;
+        margin: 0pt;
+        text-align: center;
+      }
+      .s2 {
+        color: #c00000;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 18pt;
+        text-align: center;
+      }
+      h1 {
+        color: #666;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 18pt;
+      }
+      .s3 {
+        color: black;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 18pt;
+        text-align: center;
+      }
+      .s4 {
+        color: black;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 16pt;
+        text-align: center;
+      }
+      .s5 {
+        color: black;
+        font-family: "Calibri Light", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 44pt;
+        text-align: center;
+      }
+      .s6 {
+        color: black;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 10pt;
+        text-align: center;
+      }
+      li {
+        display: block;
+        text-align: center;
+      }
+      #l1 {
+        padding-left: 0pt;
+        text-align: center;
+      }
+      #l1 > li > *:first-child:before {
+        content: "• ";
+        color: #666;
+        font-family: Calibri, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 18pt;
+        text-align: center;
+      }
+      #l2 {
+        padding-left: 0pt;
+        text-align: center;
+      }
+      #l2 > li > *:first-child:before {
+        content: " ";
+        color: #666;
+        font-family: Wingdings;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 6pt;
+        text-align: center;
+      }
+      li {
+        display: block;
+        text-align: center;
+      }
+      #l3 {
+        padding-left: 0pt;
+        text-align: center;
+      }
+      #l3 > li > *:first-child:before {
+        content: "• ";
+        color: black;
+        font-family: Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 18pt;
+        text-align: center;
+      }
+      #l4 {
+        padding-left: 0pt;
+        text-align: center;
+      }
+      #l4 > li > *:first-child:before {
+        content: " ";
+        color: black;
+        font-family: Wingdings;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        font-size: 16pt;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p
+      class="s1"
+      style="
+        padding-left: 167pt;
+        text-indent: -23pt;
+        line-height: 88%;
+        text-align: left;
+      "
+    >
+      <a name="bookmark0"
+        ><span
+          >Схема сетевого взаимодействия<br />с использованием «Рубикон»</span
+        ></a
+      >
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p style="padding-left: 157pt; text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="682"
+          height="525"
+          alt="image"
+          src="index_files3/Image_001.jpg"
+      /></span>
+    </p>
+    <p
+      class="s1"
+      style="
+        padding-left: 256pt;
+        text-indent: -121pt;
+        line-height: 88%;
+        text-align: left;
+      "
+    >
+      <a name="bookmark1"
+        ><span>Функции системы обнаружения<br />вторжений (СОВ)</span></a
+      >
+    </p>
+    <ul id="l1">
+      <li data-list-text="•">
+        <p
+          style="
+            padding-top: 16pt;
+            padding-left: 97pt;
+            text-indent: -27pt;
+            text-align: left;
+          "
+        >
+          Система обнаружения вторжений (<span style="color: #c00000">СОВ</span
+          >) может функционировать в двух режимах:
+        </p>
+        <ul id="l2">
+          <li data-list-text="">
+            <p
+              style="
+                padding-top: 14pt;
+                padding-left: 97pt;
+                text-indent: -27pt;
+                text-align: left;
+              "
+            >
+              в режиме обнаружения атак (<span style="color: #c00000">IDS</span
+              >);
+            </p>
+          </li>
+          <li data-list-text="">
+            <p
+              style="
+                padding-top: 7pt;
+                padding-left: 97pt;
+                text-indent: -27pt;
+                text-align: left;
+              "
+            >
+              в режиме предотвращения атак (<span style="color: #c00000"
+                >IPS</span
+              >).
+            </p>
+          </li>
+        </ul>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="padding-left: 205pt; text-indent: 0pt; text-align: left">
+          <span
+            ><img
+              width="613"
+              height="386"
+              alt="image"
+              src="index_files3/Image_002.jpg"
+          /></span>
+        </p>
+        <p
+          class="s1"
+          style="
+            padding-left: 256pt;
+            text-indent: -121pt;
+            line-height: 88%;
+            text-align: left;
+          "
+        >
+          <a name="bookmark2"
+            ><span>Функции системы обнаружения<br />вторжений (СОВ)</span></a
+          >
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          style="
+            padding-top: 7pt;
+            padding-left: 97pt;
+            text-indent: -27pt;
+            text-align: left;
+          "
+        >
+          <span
+            >СОВ содержит два механизма выявления потенциально опасного трафика,
+            с<br />использованием сигнатурного и эвристического метода.</span
+          >
+        </p>
+      </li>
+      <li data-list-text="•">
+        <h1
+          style="
+            padding-top: 12pt;
+            padding-left: 97pt;
+            text-indent: -27pt;
+            text-align: left;
+          "
+        >
+          Сигнатурный метод
+          <span class="p"
+            >работает на основе решающих правил, которые анализируют сетевые<br />пакеты
+            на соответствие следящим параметрам (IP-адрес источника, IP-адрес
+            назначения,<br />протокол, порт источника, порт назначения и
+            т.д.)</span
+          >
+        </h1>
+      </li>
+      <li data-list-text="•">
+        <h1
+          style="
+            padding-top: 11pt;
+            padding-left: 70pt;
+            text-indent: 0pt;
+            line-height: 88%;
+            text-align: left;
+          "
+        >
+          Эвристический метод
+          <span class="p"
+            >анализа построен на сборе статистики подключений и предназначен<br />для
+            определения сканирования.</span
+          >
+        </h1>
+        <p style="text-indent: 0pt; text-align: left"><br /></p>
+        <p style="padding-left: 223pt; text-indent: 0pt; text-align: left">
+          <span
+            ><img
+              width="565"
+              height="173"
+              alt="image"
+              src="index_files3/Image_003.jpg"
+          /></span>
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          style="
+            padding-top: 8pt;
+            padding-left: 70pt;
+            text-indent: 0pt;
+            line-height: 88%;
+            text-align: left;
+          "
+        >
+          <span
+            >По умолчанию, при срабатывании решающих правил СОВ, происходит
+            фиксация<br />информации в локальном журнале «Рубикон», также есть
+            возможность дополнительно<br />настроить отображение уведомлений в
+            веб-интерфейсе, отправку информации на<br />электронную почту и
+            отправку событий на внешний сервер по протоколу syslog.</span
+          >
+        </p>
+      </li>
+    </ul>
+    <p
+      class="s1"
+      style="
+        padding-top: 11pt;
+        padding-left: 26pt;
+        text-indent: 0pt;
+        text-align: left;
+      "
+    >
+      <a name="bookmark3">Прочие возможности ПАК «Рубикон»</a>
+    </p>
+    <p style="padding-left: 29pt; text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="893"
+          height="400"
+          alt="image"
+          src="index_files3/Image_004.png"
+      /></span>
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p style="text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="364"
+          height="276"
+          alt="image"
+          src="index_files3/Image_005.jpg"
+      /></span>
+    </p>
+    <ul id="l3">
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 4pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Поддержка технологии VPN:
+        </p>
+        <ul id="l4">
+          <li data-list-text="">
+            <p
+              class="s4"
+              style="
+                padding-top: 5pt;
+                padding-left: 73pt;
+                text-indent: -27pt;
+                text-align: left;
+              "
+            >
+              IPSec
+            </p>
+          </li>
+          <li data-list-text="">
+            <p
+              class="s4"
+              style="
+                padding-top: 5pt;
+                padding-left: 73pt;
+                text-indent: -27pt;
+                text-align: left;
+              "
+            >
+              OpenVPN
+            </p>
+          </li>
+          <li data-list-text="">
+            <p
+              class="s4"
+              style="
+                padding-top: 5pt;
+                padding-left: 73pt;
+                text-indent: -27pt;
+                text-align: left;
+              "
+            >
+              GRE
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 11pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Поддержка HTTP- и FTP-прокси
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Наличие механизма для автоматического контроля целостности системы
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Возможность фильтрации и сортировки при работе с локальным журналом
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Возможность экспорта локальных журналов из системы
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Может выступать в качестве DHCP-сервера
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Может выступать в качестве DNS-сервера
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Может выступать в качестве NTP-сервера
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Резервирование двух аппаратных платформ согласно протоколу CARP
+        </p>
+      </li>
+      <li data-list-text="•">
+        <p
+          class="s3"
+          style="
+            padding-top: 5pt;
+            padding-left: 34pt;
+            text-indent: -18pt;
+            text-align: left;
+          "
+        >
+          Возможность создания множества резервных копий конфигурации системы
+        </p>
+      </li>
+    </ul>
+    <p
+      class="s1"
+      style="
+        padding-left: 167pt;
+        text-indent: 0pt;
+        line-height: 44pt;
+        text-align: center;
+      "
+    >
+      <a name="bookmark4">Сертификаты соответствия</a>
+    </p>
+    <p style="text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="157"
+          height="157"
+          alt="image"
+          src="index_files3/Image_006.jpg"
+      /></span>
+    </p>
+    <h1
+      style="
+        padding-top: 22pt;
+        padding-left: 169pt;
+        text-indent: 0pt;
+        line-height: 22pt;
+        text-align: center;
+      "
+    >
+      ПАК «Рубикон»
+    </h1>
+    <p style="text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="166"
+          height="129"
+          alt="image"
+          src="index_files3/Image_007.png"
+      /></span>
+    </p>
+    <p style="padding-left: 208pt; text-indent: 0pt; text-align: center">
+      <span
+        >сертифицирован в системах сертификации средств<br />защиты информации
+        по требованиям безопасности<br />информации</span
+      >
+    </p>
+    <p
+      class="s2"
+      style="padding-left: 169pt; text-indent: 0pt; text-align: center"
+    >
+      <span>ФСТЭК России<br /></span><span style="color: #666">и</span>
+    </p>
+    <p
+      class="s2"
+      style="
+        padding-left: 169pt;
+        text-indent: 0pt;
+        line-height: 22pt;
+        text-align: center;
+      "
+    >
+      Министерства обороны Российской Федерации
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p style="padding-left: 197pt; text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="556"
+          height="374"
+          alt="image"
+          src="index_files3/Image_008.jpg"
+      /></span>
+    </p>
+    <p style="text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="145"
+          height="138"
+          alt="image"
+          src="index_files3/Image_009.jpg"
+      /></span>
+    </p>
+    <p
+      class="s5"
+      style="
+        padding-left: 169pt;
+        text-indent: 0pt;
+        line-height: 48pt;
+        text-align: center;
+      "
+    >
+      <a name="bookmark5">Сертификация ФСТЭК</a>
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p
+      class="s2"
+      style="padding-left: 179pt; text-indent: 0pt; text-align: left"
+    >
+      ФСТЭК
+      <span style="color: #666"
+        >(России) – Федеральная служба по техническому и<br />экспортному
+        контролю</span
+      >
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p
+      class="s6"
+      style="padding-left: 170pt; text-indent: 0pt; text-align: left"
+    >
+      <span
+        ><img
+          width="319"
+          height="458"
+          alt="image"
+          src="index_files3/Image_010.jpg"
+      /></span>
+      <span
+        ><img
+          width="291"
+          height="452"
+          alt="image"
+          src="index_files3/Image_011.jpg"
+      /></span>
+    </p>
+    <p style="text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="189"
+          height="126"
+          alt="image"
+          src="index_files3/Image_012.png"
+      /></span>
+    </p>
+    <p
+      class="s1"
+      style="
+        padding-left: 169pt;
+        text-indent: 0pt;
+        line-height: 45pt;
+        text-align: center;
+      "
+    >
+      <a name="bookmark6">Сертификация МО</a>
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p
+      class="s2"
+      style="padding-left: 212pt; text-indent: 0pt; text-align: left"
+    >
+      МО РФ
+      <span style="color: #666"
+        >– Министерство обороны Российской Федерации</span
+      >
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p
+      class="s6"
+      style="padding-left: 202pt; text-indent: 0pt; text-align: left"
+    >
+      <span
+        ><img
+          width="328"
+          height="465"
+          alt="image"
+          src="index_files3/Image_013.jpg"
+      /></span>
+      <span
+        ><img
+          width="328"
+          height="465"
+          alt="image"
+          src="index_files3/Image_014.jpg"
+      /></span>
+    </p>
+    <p
+      class="s1"
+      style="
+        padding-bottom: 1pt;
+        padding-left: 169pt;
+        text-indent: 0pt;
+        line-height: 44pt;
+        text-align: center;
+      "
+    >
+      <a name="bookmark7">Модификации изделия</a>
+    </p>
+    <p style="padding-left: 148pt; text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="683"
+          height="648"
+          alt="image"
+          src="index_files3/Image_015.jpg"
+      /></span>
+    </p>
+    <p
+      class="s1"
+      style="
+        padding-left: 169pt;
+        text-indent: 0pt;
+        line-height: 44pt;
+        text-align: center;
+      "
+    >
+      <a name="bookmark8">Модификации изделия</a>
+    </p>
+    <p style="padding-left: 155pt; text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="656"
+          height="648"
+          alt="image"
+          src="index_files3/Image_016.jpg"
+      /></span>
+    </p>
+    <p
+      class="s1"
+      style="
+        padding-left: 64pt;
+        text-indent: 0pt;
+        line-height: 44pt;
+        text-align: left;
+      "
+    >
+      <a name="bookmark9">Основные технические характеристики</a>
+    </p>
+    <p style="text-indent: 0pt; text-align: left"><br /></p>
+    <p style="padding-left: 65pt; text-indent: 0pt; text-align: left">
+      <span
+        ><img
+          width="870"
+          height="578"
+          alt="image"
+          src="index_files3/Image_017.jpg"
+      /></span>
+    </p>
+  </body>
+</html>
